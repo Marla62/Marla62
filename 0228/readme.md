@@ -3,7 +3,14 @@ Core React Concepts
 - Component Composition
 - React Dev Tools
 
-parcel会自动设置当前项目的运行模式，怎么识别区分的？
+- <StrictMode> 
+严格模式：本身具有0功能，对标签内的react代码拥有更强的警告。
+是一个高阶组件，本身不做任何事情，但是对子组件提供功能。
+目的：为了慢慢淘汰 不能正常工作 和 与未来react模型不兼容的API
+
+- webpack有个插件，允许打包时的环境变量。
+
+- parcel会自动设置当前项目的运行模式，怎么识别区分的？
 TODO：
 
 图片的alt属性不填会怎么样？
