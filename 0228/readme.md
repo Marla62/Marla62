@@ -3,6 +3,11 @@ Core React Concepts
 - Component Composition
 - React Dev Tools
 
+图片的alt属性不填会怎么样？
+alt属性不存在时，加载失败展示img url
+alt = ''， 加载失败什么都不显示。
+alt = 'desc', 加载失败展示desc
+
 组件传参数的快速方法
     - 传统方式
     <Pet
