@@ -11,7 +11,7 @@ const Pet = ({
     hero = images[0]
   }
   return (
-    <a href={`/detail/${id}`} className="pet">
+    <a href={`/details/${id}`} className="pet">
       <div className="image-container">
         <img src={hero} alt={name}></img>
       </div>

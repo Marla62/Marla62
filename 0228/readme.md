@@ -3,6 +3,9 @@ Core React Concepts
 - Component Composition
 - React Dev Tools
 
+- npm3 VS npm2
+使用平铺的结构解决了node_modules嵌套过深的问题，
+
 - <StrictMode> 
 严格模式：本身具有0功能，对标签内的react代码拥有更强的警告。
 是一个高阶组件，本身不做任何事情，但是对子组件提供功能。
@@ -32,6 +35,11 @@ alt = 'desc', 加载失败展示desc
     - 展开运算符
     <Pet {...pet} key={pet.id} />
 
+react-router：
+    作用：为了实现有条件的渲染。引入router。
+    特性：path 从左向右匹配。eg: path="/a", 会匹配到所有/a开头的string。
+              可以利用从左到右的匹配规则，做一些公共标题。
+    解决：可以通过嵌套Switch解决此问题。
 
 pnpm
 
