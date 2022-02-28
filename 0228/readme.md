@@ -3,6 +3,9 @@ Core React Concepts
 - Component Composition
 - React Dev Tools
 
+parcel会自动设置当前项目的运行模式，怎么识别区分的？
+TODO：
+
 图片的alt属性不填会怎么样？
 alt属性不存在时，加载失败展示img url
 alt = ''， 加载失败什么都不显示。
