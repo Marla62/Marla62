@@ -45,6 +45,8 @@ react-router：
     目的：无刷新的切换到新的页面。
     href会引起一次页面刷新，将我们带到一个完整的单独的页面。我们只是想要捕获导航的变化，从而加载对应的react组件，这样就不会卸载并重新加载基础的react。
 
+class风格的组件：
+
 pnpm
 
 什么是pnpm?
@@ -52,3 +54,17 @@ pnpm
 对比yarn，npm优势？
 
 自身缺陷：
+
+umi的插件，插件集什么意思？
+
+整个项目都没有实质性的<Link/> ,可以理解为这些页面之间是完全解耦合的吗？
+
+调试地址：http://localhost:8000/client/lms/desktop/course/list
+/desktop/course/list 写在routes.ts，但/client/lms/是从哪里加上去的？
+在 .umirc.ts的base属性
+
+withRouter是什么？
+
+hooks怎么替代类组件的生命周期？
+
+当组件被销毁时释放所占用的资源，hooks怎么处理？
