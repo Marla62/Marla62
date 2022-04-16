@@ -1,0 +1,11 @@
+什么是ORM模型？
+
+对象-关系映射 Object/Relational Mapping
+具体就是通过实例对象的语法，完成关系型数据库的操作的技术。
+面向对象中的OO概念，在关系型数据库中都有对应的映射词语。
+ORM是MVC中天然的Model
+
+OO  /  Relations DB
+Class / Tables
+Object / Records(Rows in a Table)
+Attributes / Record Values(Columns in a table)
