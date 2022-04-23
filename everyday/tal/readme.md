@@ -15,3 +15,6 @@ js中谁是双等于null的？
 有过什么技术项目
 hook的实现原理
 react16/17/18版本特点
+react是怎么diff的
+有重复的元素时 怎么处理
+vue的ref或者react的ref是做什么的，是怎么一回事
