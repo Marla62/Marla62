@@ -2,7 +2,7 @@
 
 ------
 
-沉淀 积累 [impurities.md](/blob/master/impurities.md)
+沉淀 积累 [impurities.md](/impurities.md)
 
 这里用了一个 英语 翻译过来叫杂质。  
 
@@ -12,11 +12,11 @@
 
 ------
 
-零碎的知识点 [grocery.md](https://github.com/Marla62/Marla62/blob/master/grocery.md)
+零碎的知识点 [grocery.md](/grocery.md)
 
 ------
 
-我的灵感：[idea.md](https://github.com/Marla62/Marla62/blob/master/idea.md)
+我的灵感：[idea.md](/idea.md)
 
 ------
 
