@@ -2,7 +2,7 @@
 
 ------
 
-沉淀 积累 [impurities.md](/impurities.md)
+## 沉淀 积累 [impurities.md](/impurities.md)
 
 这里用了一个 英语 翻译过来叫杂质。  
 
@@ -12,23 +12,19 @@
 
 ------
 
-零碎的知识点 [grocery.md](/grocery.md)
+## 零碎的知识点 [grocery.md](/grocery.md)
 
 ------
 
-我的灵感：[idea.md](/idea.md)
+## 我的灵感：[idea.md](/idea.md)
 
 ------
 
-学习记录：按照开坑时间顺序排列  
-react  
-redux  
-webpack  
-TypeScript
+## 记录：按照开坑时间顺序排列,未来可作为专栏发出
 
-------
+10% - [react](/react/0.%E5%AD%A6%E4%B9%A0react%E7%9A%84%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95.md)  
 
-我刷过的题，做过的事：
-递归
-反转链表
-合并两个有序链表
+100% - [redux](/redux/1.%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0redux.md)  
+
+0% - webpack  
+0% - TypeScript
