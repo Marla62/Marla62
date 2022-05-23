@@ -70,6 +70,20 @@ fixed的完整定义是
 因为要做数据diff, 因为没有提供精确的变化追踪.所以必须保证数据的不可变,而破坏了数据的可变性会导致不可想象的问题.
 要精确追踪变化就必须显示的指定更新位置.而不是一股脑的将这个对象重新赋值
 
-7. 怎么提成页面性能
+7. 怎么提升页面性能,应该基于什么样的原则
 
 将JS的大任务进行拆分,留出时机来执行用户的交互动作.也就是让出执行权
+
+8. core-js@2 到 core-js@3的一次升级
+
+@babel/polyfill 无法提供 core-js@2 向 core-js@3 过渡，所以现在有新的方案去替代 @babel/polyfill。需要 babel-loader 版本升级到 8.0.0 以上，@babel/core 版本升级到 7.4.0 及以上。
+
+9. babel.config.js 和 .babelrc的区别
+
+babel.config.js是项目级别的配置 而.babelrc可以指定某个目录下的编译规则.
+
+涉及到babel工具读取配置文件与合并配置文件的规则
+
+10. dependencies和devDependencies的区别
+
+11. [https下加载http资源(混合加载) 会被block掉](https://sspai.com/post/63507) [官方文档](https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html)
