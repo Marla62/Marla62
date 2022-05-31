@@ -89,3 +89,7 @@ babel.config.js是项目级别的配置 而.babelrc可以指定某个目录下�
 11. [https下加载http资源(混合加载) 会被block掉](https://sspai.com/post/63507) [官方文档](https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html)
 
 12. [babel的一个配置,加速项目热更新](/IDEA/解决路由懒加载时热更新慢.md)
+
+13. webpack构建产物在内存中, localhost:8080/是可以访问到页面?
+  
+14. vue.config.js里设置 { open: true }, 为什么 vue-cli4启动项目时,总会打开两个tab
