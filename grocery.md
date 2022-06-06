@@ -93,3 +93,7 @@ babel.config.js是项目级别的配置 而.babelrc可以指定某个目录下�
 13. webpack构建产物在内存中, localhost:8080/是可以访问到页面?
   
 14. vue.config.js里设置 { open: true }, 为什么 vue-cli4启动项目时,总会打开两个tab
+
+15. npm包引入后表现与预期不符,使用 console.log(module.path)这个数组表示了包的查找路径
+
+16. npm查找到包路径后,会做缓存处理 存在Module._cache上,下次直接从缓存读
